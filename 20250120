@@ -1,0 +1,93 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPtpRbt557eD6d/ylohkGlf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/1231-arisa/demo2/blob/main/20250120\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tCem8svWG0-M",
+        "outputId": "5768c233-a1cc-4477-e48f-a57409078b73"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, world\n"
+          ]
+        }
+      ],
+      "source": [
+        "def function():\n",
+        "  print(\"Hello, world\")\n",
+        "function()\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def sayhello(message):\n",
+        "  print(message)\n",
+        "sayhello(\"Hello world\")\n",
+        "sayhello(\"Hello Python\")\n",
+        "sayhello(\"Hello Colab\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AR2mgEZDG6jt",
+        "outputId": "a3b76e0e-d903-4c96-da0b-0883e06a376e"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello world\n",
+            "Hello Python\n",
+            "Hello Colab\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "qFMQfAoBJR2D"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
